@@ -14,6 +14,15 @@
             "glow-enabled": true,
             "glow-col": 1,
             "death-effect-id": 13
+        },{
+            "username": "Lpvapp",
+            "account-id": 6903012,
+            "icon-id": 133,
+            "primary-col": 1,
+            "secondary-col": 12,
+            "glow-enabled": true,
+            "glow-col": 1,
+            "death-effect-id": 13
         }
     ],
     "strings": {
@@ -48,7 +57,9 @@
             "safe-mode-view-reason-button": "Mirar Razón",
             "export-to-file-button": "Exportar a archivo.",
             "import-from-file-button": "Importar desde archivo.",
-            "language-contributors-button": "Ver contribuidores"
+            "language-contributors-button": "Ver contribuidores",
+            "language-missing-unfinished": "¿Idioma faltante o incompleto?",
+            "language-contribute-button": "¡Contribuye!"
         },
         "colour-setup": {
             "title": "Seleccionar Color",
@@ -98,6 +109,21 @@
             }
         },
         "names": {
+            "create-custom-rewards": "Crea Premios Customizados",
+            "shortcuts/open-graphics-settings":"Abre Configuraciones de Graficos",
+            "shortcuts/toggle-practice": "Activa/Desactiva el modo practica.",
+            "shortcuts/uncomplete-level": "Eliminar Progreso de Nivel",
+            "shortcuts/restart-attempt": "Reinicia Intento",
+            "shortcuts/open-settings": "Abre Configuracion del Juego",
+            "shortcuts/clone-level": "Copiar Nivel",
+            "disable-shortcuts": "Desactivar Atajos",
+            "search-on-keypress": "Buscar en Tecleado",
+            "notifications": "Notificaciones",
+            "notifications/blur": "Fondo de Notificaciones Borrosa",
+            "notifications/test": "Probar Notificacion",
+            "notifications/right": "Mostrar Notificaciones a la Izquierda",
+            "notifications/duration": "Duracion de notificacion",
+            "fast-end-screen" : "Pantalla Final Rapida",
             "internal/open-menu": "Menu Keybind:",
             "safe-mode": "Modo Seguro",
             "safe-mode/text": "Texto",
@@ -163,6 +189,7 @@
             "slider-limit/reset-audio-variables": "Reiniciar Barras de Audio",
             "practice-bypass": "Música de Práctica Hack",
             "pitch-shifter": "Cambiar Pitch",
+            "speedhack/label": "Speedhack",
             "speedhack/gameplay": "Speedhack Gameplay",
             "speedhack/music": "Speedhack afecta la Música",
             "speedhack/enabled": "Activado",
@@ -268,6 +295,19 @@
             "trail-cutting/fps": "Actualizar FPS:"
         },
         "descriptions": {
+            "create-custom-rewards": "Genera un premio que puedes customizar.",
+            "shortcuts/open-graphics-settings":"Abre las opciones de graficos del juego.",
+            "shortcuts/toggle-practice": "Activa/Desactiva el modo practica.",
+            "shortcuts/uncomplete-level": "Elimina todo el progreso de un nivel.",
+            "shortcuts/restart-attempt": "Reinicia el intento que actualmente estas haciendo.",
+            "shortcuts/open-settings": "Abre las opciones del juego.",
+            "shortcuts/clone-level": "Copiar el nivel para que lo puedas editar localmente.",
+            "disable-shortcuts": "Desactiva la abilidad de activar configuraciones con las teclas del teclado." ,
+            "notifications": "Lanza una notificacion cuando una configuracion es activada.",
+            "notifications/test": "Lanza una notificacion de prueba.",
+            "notifications/right": "Muestra las notificaciones a la izquierda en vez de la derecha.",
+            "notifications/blur": "Hace que el fondo de la notificacion sea borrosa.",
+            "search-on-keypress": "Permite buscar configuraciones con solo teclear en cualquier menu.",
             "internal/open-menu": "",
             "safe-mode": "Inhabilita el progreso en niveles.",
             "safe-mode/text": "",
@@ -325,7 +365,7 @@
             "auto-safe-mode": "Automáticamente activa el modo seguro cuando uses un mod que es trampa.",
             "icon-bypass": "Desbloquea todos los iconos.",
             "trans-bg": "Hace que todos los fondos con un gradiente sean transparentes con un color blanco.",
-            "trans-bg/only-blue": "Solo cambia los fondos azules. \nSi no esta activado puede que los Vaults sean afectados.",
+            "trans-bg/only-blue": "Solo cambia los fondos azules. \nSi no esta activado puede que las Bóvedas sean afectadas.",
             "trans-bg/colour": "",
             "char-limit": "Te permite escribir de forma ilimitada en cualquier zona que permita texto.",
             "char-filter": "Te permite poner cualquier tipo de caracter que este disponible.",
